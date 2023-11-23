@@ -4,7 +4,7 @@ import time
 # Create your views here.
 
 def loop_view(request):
-    iterations = 1000000  # Adjust the number of iterations as needed
+    iterations = 1000  # Adjust the number of iterations as needed
     start_time = time.time()
 
     count = 0
