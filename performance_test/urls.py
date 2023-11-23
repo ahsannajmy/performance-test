@@ -19,5 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('forloop/', include('ForLoop.urls')),
+    path('forloop/', include('for_loop.urls')),
 ]
